@@ -177,7 +177,7 @@ export default function CompanionStationery() {
 
                 <div className="text-xs text-[#5A493B] font-serif space-y-1 pt-1">
                   <p>
-                    <strong className="text-[#3A2D23]">Bride:</strong> Malil Puthenpura, Perumballoor, Muvattupuzha
+                    <strong className="text-[#3A2D23]">Bride:</strong> Myalilputhenpura, Perumballoor, Muvattupuzha
                   </p>
                   <p>
                     <strong className="text-[#3A2D23]">Groom:</strong> Vadakkepandasseril, Chempu, Vaikom

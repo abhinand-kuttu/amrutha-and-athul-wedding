@@ -153,7 +153,7 @@ export const weddingData: WeddingData = {
       "Daughter of Late Sri. Biju M.N. & Smt. Bindu Biju, stepping into a lifetime of cherished love, joy and companionship.",
     parents: "D/o Late Sri. Biju M.N. & Smt. Bindu Biju",
     malayalamParents: "D/o ശ്രീ. ബിജു എം.എൻ (late) & ശ്രീമതി. ബിന്ദു ബിജു",
-    houseName: "Malil Puthenpura (House)",
+    houseName: "Myalilputhenpura (House)",
     place: "Perumballoor P.O., Muvattupuzha",
     phone: "+91 79943 13296",
   },
@@ -261,7 +261,7 @@ export const weddingData: WeddingData = {
         relation: "Parents of the Bride",
         malayalamRelation: "മാതാപിതാക്കൾ",
         names: ["Smt. Bindu Biju & Late Sri. Biju M.N."],
-        houseName: "Malil Puthenpura (House)",
+        houseName: "Myalilputhenpura (House)",
         place: "Perumballoor P.O., Muvattupuzha",
         phone: "+91 79943 13296",
       },
@@ -299,7 +299,7 @@ export const weddingData: WeddingData = {
     signOff: "With immense love & warmest regards,\nAmrutha & Athul\nalong with their families",
     contactRsvp: [
       {
-        name: "Malil Puthenpura (Bride's Residence)",
+        name: "Myalilputhenpura (Bride's Residence)",
         phone: "+91 79943 13296",
         relation: "Perumballoor, Muvattupuzha",
       },
