@@ -183,17 +183,17 @@ export const weddingData: WeddingData = {
 
   // Primary Venue Details
   venue: {
-    name: "Pallikkavu Temple & Auditorium",
+    name: "Sree Pallikkavu Bhagavathi Temple & Auditorium",
     hall: "Pallikkavu Auditorium (പള്ളിക്കാവ് ഓഡിറ്റോറിയം)",
     ceremonyName: "Pallikkavu Temple Sannidhi (താലിക്കെട്ട്)",
     malayalamCeremonyName: "പള്ളിക്കാവ് ക്ഷേത്രസന്നിധിയിൽ",
     receptionName: "Pallikkavu Auditorium (വിവാഹ സദ്യ)",
     malayalamReceptionName: "പള്ളിക്കാവ് ഓഡിറ്റോറിയം",
-    fullAddress: "Pallikkavu Temple & Auditorium, Near Muvattupuzha, Kerala",
+    fullAddress: "Sree Pallikkavu Bhagavathi Temple & Auditorium, Pallikkavu Road, Muvattupuzha, Kerala - 686661",
     city: "Muvattupuzha",
     state: "Kerala",
-    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pallikkavu+Temple+Auditorium",
-    landmarks: "Near Muvattupuzha & Perumballoor",
+    googleMapsUrl: "https://maps.app.goo.gl/UpyxL5a6h9Gv7JLB7?g_st=ac",
+    landmarks: "Pallikkavu Road, Near Muvattupuzha & Perumballoor",
   },
 
   // Traditional Invocations
@@ -229,11 +229,11 @@ export const weddingData: WeddingData = {
       time: "9:30 AM – 10:30 AM (Muhurtham)",
       venue: "Pallikkavu Temple Sannidhi",
       malayalamVenue: "പള്ളിക്കാവ് ക്ഷേത്രസന്നിധിയിൽ",
-      address: "Pallikkavu Temple, Kerala",
+      address: "Sree Pallikkavu Bhagavathi Temple, Pallikkavu Road, Muvattupuzha - 686661",
       description: "Join us in the divine presence of the temple deity as Amrutha & Athul exchange eternal vows.",
       dressCode: "Traditional Kerala Kasavu Mundu & Saree / Royal Ethnic",
       iconName: "ring",
-      googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pallikkavu+Temple+Auditorium",
+      googleMapsUrl: "https://maps.app.goo.gl/UpyxL5a6h9Gv7JLB7?g_st=ac",
     },
     {
       id: "sadhya",
@@ -244,11 +244,11 @@ export const weddingData: WeddingData = {
       time: "Following The Ceremony (11:00 AM Onwards)",
       venue: "Pallikkavu Auditorium",
       malayalamVenue: "പള്ളിക്കാവ് ഓഡിറ്റോറിയത്തിൽ",
-      address: "Adjacent to Pallikkavu Temple, Kerala",
+      address: "Sree Pallikkavu Auditorium, Pallikkavu Road, Muvattupuzha - 686661",
       description: "Celebrate with a sumptuous traditional Kerala Sadya served on fresh banana leaves with family and well-wishers.",
       dressCode: "Traditional Ethnic / Festive Wear",
       iconName: "sparkles",
-      googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pallikkavu+Temple+Auditorium",
+      googleMapsUrl: "https://maps.app.goo.gl/UpyxL5a6h9Gv7JLB7?g_st=ac",
     },
   ],
 
