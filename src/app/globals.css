@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-sage: #6B7F68;
+  --color-sage-deep: #4E5F4B;
+  --color-ivory: #FAF8F3;
+  --color-gold-foil: #B89758;
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  background-color: #556852;
+  color: #3A2D23;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Luxury slim scrollbar in antique gold and sage */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #485846;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B89758;
+  border-radius: 9999px;
+  border: 2px solid #485846;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DFC692;
+}
+
+/* Metallic gold foil text gradient */
+.text-gold-foil {
+  background: linear-gradient(135deg, #A88647 0%, #C9A86A 35%, #F0D9A6 55%, #B89758 75%, #7D5E24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Sage silk drapery background */
+.bg-sage-silk {
+  background: 
+    radial-gradient(circle at 20% 15%, rgba(134, 158, 129, 0.4) 0%, transparent 45%),
+    radial-gradient(circle at 80% 80%, rgba(78, 95, 75, 0.6) 0%, transparent 50%),
+    linear-gradient(145deg, #51634E 0%, #687D65 24%, #495A46 48%, #6E846A 72%, #445441 100%);
+  background-attachment: fixed;
+}
+
+/* Luxury Linen Deckle Paper Texture */
+.bg-linen-card {
+  background-color: #FBF9F4;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(184, 151, 88, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, #FFFDF9, #F7F3EA);
+  background-size: 20px 20px, 100% 100%;
+}
+
+/* Heavy Matte Envelope Paper Grain */
+.bg-envelope-paper {
+  background-color: #5C7259;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.06) 0%, transparent 35%),
+    radial-gradient(circle at 90% 80%, rgba(0, 0, 0, 0.12) 0%, transparent 45%),
+    linear-gradient(140deg, #647B61 0%, #586D55 45%, #4C5F49 100%);
+}
+
+.bg-envelope-pocket {
+  background-color: #435440;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.15) 0%, transparent 80%),
+    linear-gradient(180deg, #3C4B39 0%, #475844 100%);
+}
+
+/* Paper Flap Cast Shadows (Realistic overlapping paper depth) */
+.shadow-flap-down {
+  filter: drop-shadow(0 12px 14px rgba(20, 30, 18, 0.45)) drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+}
+
+.shadow-envelope-3d {
+  box-shadow: 
+    0 30px 65px -15px rgba(25, 36, 23, 0.6),
+    0 15px 30px -8px rgba(0, 0, 0, 0.35),
+    inset 0 1px 2px rgba(255, 255, 255, 0.15),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* Paper edge micro highlight */
+.paper-edge-bevel {
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 255, 255, 0.25),
+    inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Arched Invitation Card with Double Gold Foil Border */
+.card-arch-frame {
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: relative;
+}
+
+.double-gold-border {
+  border: 1px solid rgba(184, 151, 88, 0.65);
+  box-shadow: 
+    inset 0 0 0 3px #FBF9F4,
+    inset 0 0 0 4px rgba(184, 151, 88, 0.45);
+}
+
+.double-gold-arch-border {
+  border-top-left-radius: 172px;
+  border-top-right-radius: 172px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 1px solid rgba(184, 151, 88, 0.55);
+  box-shadow: 
+    inset 0 0 0 3px #FBF9F4,
+    inset 0 0 0 4px rgba(184, 151, 88, 0.35);
+}
+
+/* 3D Envelope perspective */
+.perspective-1000 {
+  perspective: 1200px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
